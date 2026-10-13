@@ -1,0 +1,32 @@
+AI-StudyMate — Final Experiment Completion Checklist
+
+[x] Local Streamlit app starts
+[x] Ollama endpoint responds with HTTP 200
+[x] qwen2.5:3b appears in `ollama list`
+[x] Five study modes tested
+[x] Three answer-length options tested
+[x] Creativity setting tested
+[x] Maximum new tokens setting tested
+[x] Clear Input tested
+[x] Generated-answer download tested
+[x] Empty-input validation tested
+[x] Three prompt-engineering variants A/B/C tested
+[x] Ten required test scenarios attempted
+
+IMPORTANT RESULTS TO REPORT
+- T5: Fail — model treated “execution unit” as a function/method rather than a thread.
+- T6: Fail — short answer stopped mid-sentence.
+- T9: Partial/Fail — no clear disclosure that live stock data was unavailable.
+- T10: Fail — generated unverified academic references after calling the algorithm fictional.
+- Other statuses are based on the output summaries supplied.
+
+REMAINING EVIDENCE TO CAPTURE
+[ ] Application home/interface screenshot
+[ ] Browser screenshot showing a successful generated answer
+[ ] Terminal screenshot of Python/Streamlit versions, `ollama list`, and API status 200
+[ ] Screenshot of empty-input warning
+[ ] Screenshot showing answer download control or downloaded file
+[ ] Add exact generation settings to CSV if visible and required
+[ ] If required, attach complete outputs for all ten tests; the CSV contains concise summaries
+
+Do not claim hosted deployment unless you actually deployed the app and tested its URL.
